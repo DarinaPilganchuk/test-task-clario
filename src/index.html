@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Test landing</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:ital,wght@0,400;0,500;0,600;1,500;1,600&family=Poppins:wght@300;400;500;600&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./sass/index.scss" />
+  <script type="module" src="./index.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="container header--flex">
+      <svg class="logo-mobile" width="50" height="50">
+        <use href="./images/icons/symbol-defs.svg#logo-m"></use>
+      </svg>
+      <svg class="logo" width="116" height="50">
+        <use href="./images/icons/symbol-defs.svg#Logo"></use>
+      </svg>
+
+      <div class="mobile-menu" data-menu-open>
+        <button type="button" class="mobile-btn">
+          <svg class="mobile-menu__svg" width="28" height="18">
+            <use href="./images/icons/symbol-defs.svg#bg_menu"></use>
+          </svg>
+        </button>
+
+        <div class="mobile-nav" data-menu>
+          <button type="button" class="mobile-exit">
+            <svg class="mobile-exit__svg" width="24" height="24">
+              <use href="./images/icons/symbol-defs.svg#close"></use>
+            </svg>
+          </button>
+          <ul class="mobile-list list">
+            <li class="mobile-list__item mobile-list__item--first">
+              <a href="#features" class="mobile-list__link link">Features</a>
+            </li>
+            <li class="mobile-list__item">
+              <a href="#about" class="mobile-list__link link">About</a>
+            </li>
+            <li class="mobile-list__item">
+              <a href="#blog" class="mobile-list__link link">Blog</a>
+            </li>
+            <li class="mobile-list__item">
+              <a href="#contact" class="mobile-list__link link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="menu">
+        <nav class="nav">
+          <ul class="menu-list">
+            <li class="menu-list_item"><a href="Features">Features</a></li>
+            <li class="menu-list_item"><a href="About">About</a></li>
+            <li class="menu-list_item"><a href="Blog">Blog</a></li>
+            <li class="menu-list_item"><a href="Contacts">Contacts</a> </li>
+          </ul>
+          <button>Button</button>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div>
+      <section class="hero container">
+        <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
+        <p>Sed pellentesque, lectus ut convallis vestibulum, metus urna blandit arcu, vitae malesuada tellus augue non
+          diam.</p>
+        <button class="btn" type="button">Download</button>
+      </section>
+    </div>
+    <section>
+      <h2>Aliquam ut libero vel urna rhoncus?</h2>
+      <p>Proin molestie justo at rhoncus ornare. Phasellus vulputate ultrices nibh sed lacinia. Etiam dui felis,
+        ultricies vel accumsan iaculis, accumsan ac sapien. Suspendisse volutpat ipsum orci, vitae euismod augue dapibus
+        quis. Integer felis nisi, semper vel vehicula nec, interdum ut felis. Donec sagittis lacinia nulla eget
+        tincidunt.</p>
+
+      <ul>
+        <li>
+          <h3>Tab1</h3>
+        </li>
+        <li>
+          <h3>Tab2</h3>
+        </li>
+        <li>
+          <h3>Tab3</h3>
+
+        </li>
+        <li>
+          <h3>Tab4</h3>
+        </li>
+      </ul>
+      <h2>Vestiblum vel dictum ipsum?</h2>
+      <p>Morbi lobortis, massa ac dictum commodo, dolor ipsum dapibus massa, a fringilla ante augue eget felis. Aliquam
+        ornare
+        ante est, ac venenatis nunc fermentum vel. Integer vel nulla sit amet sem aliquet mollis. Nam a justo id magna
+        semper
+        luctus non in massa. Proin vehicula augue in felis lobortis vestibulum. Curabitur quis massa non velit tincidunt
+        lobortis nec vitae dui.</p>
+      <button type="button">Download</button>
+    </section>
+
+    <section>
+      <h2>Nam at pulvinar dui, ornare ullamcorper nulla cursus rhoncus velit?</h2>
+      <ul>
+        <li>
+          <h3>Lorem ipsum dolor sit</h3>
+          <svg class="" width="18" height="20">
+            <use href="./images/icons/symbol-defs.svg#sign"></use>
+          </svg>
+          <p> Fusce imperdiet leo lobortis luctus.</p>
+          <svg class="" width="18" height="20">
+            <use href="./images/icons/symbol-defs.svg#sign"></use>
+          </svg>
+          <p>Phasellus scelerisque dolor.</p>
+          <svg class="" width="18" height="20">
+            <use href="./images/icons/symbol-defs.svg#sign"></use>
+          </svg>
+          <p>Mauris euismod metus quis eros.</p>
+
+        </li>
+        <li> <img>
+          <h3>Lorem ipsum dolor sit</h3>
+          <p> Fusce imperdiet leo lobortis luctus.</p>
+          <p>Phasellus scelerisque dolor.</p>
+          <p>Vestibulum vitae turpis id metus.</p>
+        </li>
+        <li> <img>
+          <h3>Turpis id metus vestibulum</h3>
+          <p>Vestibulum quis diam non.</p>
+          <p>Donec consectetur leo at ultrices.</p>
+          <p>In euismod lacus nec magna.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="slider">
+
+      <ul>
+        <li>
+          <h4>Sit amet ante</h4>
+          <p>Product Designer</p>
+        </li>
+
+        <li>
+          <h4>Quisque maximus</h4>
+          <p>Phasellus hendrerit sapien vel magna congue fringilla. Phasellus finibus arcu sit amet nibh faucibus.</p>
+        </li>
+
+        <li>
+          <h4>Nunc in malesuada</h4>
+          <p>Ut vitae massa dignissim, tempor dui eget, suscipit neque. Aliquam erat volutpat.</p>
+        </li>
+      </ul>
+    </section>
+    <section class="buynow container">
+      <h2 class="buynow_title">Nulla ligula at tortor eleifend</h2>
+      <p class="buynow_text">Phasellus finibus arcu sit amet nibh faucibus, id lacinia lacus tincidunt. Proin iaculis
+        risus ut porta
+        accumsan. In
+        volutpat nisl varius, lobortis mauris vitae, interdum arcu. Donec in neque libero. Proin turpis leo, porta eu
+        justo et,
+        lobortis porttitor dui. Quisque interdum, risus vel pretium sollicitudin, enim ipsum tempus neque, a dapibus
+        nibh metus
+        a metus.</p>
+      <button type="button">Download</button>
+      <button>Buy Now</button>
+    </section>
+  </main>
+  <footer class="footer container">
+    <ul class="footer-list">
+      <li class="footer-item">About</li>
+      <li class="footer-item">Privacy Notice</li>
+      <li class="footer-item">Company</li>
+      <li class="footer-item">EULA</li>
+      <li class="footer-item">Support</li>
+      <li class="footer-item">Uninstall</li>
+      <li class="footer-item">Cookie Policy</li>
+      <li class="footer-item">Refund Policy</li>
+    </ul>
+
+    <p class="copyright-text">
+      Copyright © <br> All
+      rights reserved.</p>
+  </footer>
+
+</body>
+
+</html>
