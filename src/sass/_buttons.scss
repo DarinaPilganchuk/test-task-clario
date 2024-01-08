@@ -1,0 +1,15 @@
+.btn {
+  display: block;
+  margin: 0 auto;
+  padding: 12 32;
+  width: 272px;
+  height: 48px;
+  color: var(--btn-color);
+  font-family: var(--main-font);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: calc(23px / 15px);
+  background-color: var(--bg-accent-cl);
+  border-radius: 30px;
+  background-color: #00600c;
+}
