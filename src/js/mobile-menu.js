@@ -3,6 +3,7 @@ const menuCloseBtn = document.querySelector('[data-menu-close]');
 const mobileMenu = document.querySelector('[data-menu]');
 const body = document.body;
 
+//Додавання обробників подій для кнопок відкриття та закриття меню
 menuOpenBtn.addEventListener('click', () => {
   modalOperation();
   body.style.overflow = 'hidden';

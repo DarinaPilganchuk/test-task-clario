@@ -8,7 +8,6 @@
   gap: 14px;
   flex-wrap: wrap;
   justify-content: center;
-  text-align: center;
   @media (min-width: 768px) {
     flex-wrap: nowrap;
   }
@@ -20,13 +19,20 @@
   font-size: 13px;
   line-height: calc(39px / 13px);
   color: #36373d;
+  &__link {
+    cursor: pointer;
+  }
 }
 
 .copyright-text {
+  white-space: pre-line;
   color: #36373d;
   font-family: var(--main-font);
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.5;
   text-align: center;
+  display: block;
+  @media (min-width: 768px) {
+    white-space: normal;
+  }
 }

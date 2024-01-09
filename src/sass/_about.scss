@@ -4,7 +4,6 @@
   padding-bottom: 48px;
 
   &__title {
-    width: 272px;
     font-family: var(--main-font);
     font-weight: 600;
     font-size: 24px;
@@ -24,7 +23,6 @@
     font-weight: 700;
     font-size: 18px;
     line-height: calc(28px / 18px);
-    text-align: center;
   }
   &__info {
     font-family: var(--main-font);
@@ -33,13 +31,11 @@
     line-height: calc(20px / 12px);
   }
   &__wrap {
-    text-align: center;
     display: inline-block;
   }
 
   &__box {
     display: flex;
-    align-items: center;
   }
   &__img {
     margin: 0 auto;
@@ -47,10 +43,6 @@
   }
 }
 .about-list {
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-
   @media screen and (min-width: 768px) {
     display: flex;
     align-items: center;

@@ -12,4 +12,17 @@
   background-color: var(--bg-accent-cl);
   border-radius: 30px;
   background-color: #00600c;
+  &:hover {
+    box-shadow: 5px 6px 0px 0px #033d0a;
+  }
+  @media screen and (min-width: 768px) {
+    width: 196px;
+    height: 64px;
+    letter-spacing: -0.5px;
+    margin: 0 auto 41px;
+    padding: 16px 49px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: calc(30px / 20px);
+  }
 }
